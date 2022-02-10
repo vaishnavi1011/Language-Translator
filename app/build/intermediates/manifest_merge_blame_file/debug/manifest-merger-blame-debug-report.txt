@@ -1,0 +1,236 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.languagetranslatorapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:6:5-70
+12-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\748857b6a0e7e818a107567863a9db33\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:23:5-79
+13-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\748857b6a0e7e818a107567863a9db33\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:23:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\748857b6a0e7e818a107567863a9db33\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\748857b6a0e7e818a107567863a9db33\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
+17
+18    <application
+18-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:8:5-22:19
+19        android:name="androidx.multidex.MultiDexApplication"
+20        android:allowBackup="true"
+20-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:9:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c487f8ff202be37dcd8bd687706f6531\core-1.7.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@drawable/translateicon"
+23-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:10:9-47
+24        android:label="@string/app_name"
+24-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:11:9-41
+25        android:roundIcon="@drawable/translateicon"
+25-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:12:9-52
+26        android:supportsRtl="true"
+26-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:13:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.LanguageTranslatorApp" >
+28-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:14:9-59
+29        <activity android:name="com.example.languagetranslatorapp.MainActivity" >
+29-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:15:9-21:20
+29-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:15:19-47
+30            <intent-filter>
+30-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:16:13-20:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:17:17-69
+31-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:17:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:19:17-77
+33-->C:\Users\Vaishnavi\AndroidStudioProjects\LanguageTranslatorApp\app\src\main\AndroidManifest.xml:19:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <service
+37-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\fa6d1dc9ad4e76d5393a92e01162bcb0\jetified-firebase-ml-natural-language-22.0.1\AndroidManifest.xml:9:9-15:19
+38            android:name="com.google.firebase.components.ComponentDiscoveryService"
+38-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\fa6d1dc9ad4e76d5393a92e01162bcb0\jetified-firebase-ml-natural-language-22.0.1\AndroidManifest.xml:10:13-84
+39            android:directBootAware="true"
+39-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\8e9d7420722348251c52478b175a6fe0\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+40            android:exported="false" >
+40-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\fa6d1dc9ad4e76d5393a92e01162bcb0\jetified-firebase-ml-natural-language-22.0.1\AndroidManifest.xml:11:13-37
+41            <meta-data
+41-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\fa6d1dc9ad4e76d5393a92e01162bcb0\jetified-firebase-ml-natural-language-22.0.1\AndroidManifest.xml:12:13-14:85
+42                android:name="com.google.firebase.components:com.google.firebase.ml.naturallanguage.NaturalLanguageRegistrar"
+42-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\fa6d1dc9ad4e76d5393a92e01162bcb0\jetified-firebase-ml-natural-language-22.0.1\AndroidManifest.xml:13:17-126
+43                android:value="com.google.firebase.components.ComponentRegistrar" />
+43-->[com.google.firebase:firebase-ml-natural-language:22.0.1] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\fa6d1dc9ad4e76d5393a92e01162bcb0\jetified-firebase-ml-natural-language-22.0.1\AndroidManifest.xml:14:17-82
+44            <meta-data
+44-->[com.google.firebase:firebase-ml-natural-language-translate:22.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a7b30a71725d72c87a147b8eb68cff2d\jetified-firebase-ml-natural-language-translate-22.0.2\AndroidManifest.xml:12:13-14:85
+45                android:name="com.google.firebase.components:com.google.firebase.ml.naturallanguage.translate.NaturalLanguageTranslateRegistrar"
+45-->[com.google.firebase:firebase-ml-natural-language-translate:22.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a7b30a71725d72c87a147b8eb68cff2d\jetified-firebase-ml-natural-language-translate-22.0.2\AndroidManifest.xml:13:17-145
+46                android:value="com.google.firebase.components.ComponentRegistrar" />
+46-->[com.google.firebase:firebase-ml-natural-language-translate:22.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a7b30a71725d72c87a147b8eb68cff2d\jetified-firebase-ml-natural-language-translate-22.0.2\AndroidManifest.xml:14:17-82
+47            <meta-data
+47-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\030813a66d8f99ecea6b4226fbb36500\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:11:13-13:85
+48                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+48-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\030813a66d8f99ecea6b4226fbb36500\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:12:17-117
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\030813a66d8f99ecea6b4226fbb36500\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:13:17-82
+50            <meta-data
+50-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\748857b6a0e7e818a107567863a9db33\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:30:13-32:85
+51                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+51-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\748857b6a0e7e818a107567863a9db33\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:31:17-139
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\748857b6a0e7e818a107567863a9db33\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:32:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+54                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+54-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-config:19.2.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\46f23dfc926cab337410e91440e49a01\jetified-firebase-config-19.2.0\AndroidManifest.xml:32:13-34:85
+57                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+57-->[com.google.firebase:firebase-config:19.2.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\46f23dfc926cab337410e91440e49a01\jetified-firebase-config-19.2.0\AndroidManifest.xml:33:17-117
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-config:19.2.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\46f23dfc926cab337410e91440e49a01\jetified-firebase-config-19.2.0\AndroidManifest.xml:34:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\480797cd598e1ceb621089608b797079\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+60                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+60-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\480797cd598e1ceb621089608b797079\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\480797cd598e1ceb621089608b797079\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-abt:19.1.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c5dae224e46eaeaf49137f0ea91f7a1c\jetified-firebase-abt-19.1.0\AndroidManifest.xml:13:13-15:85
+63                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+63-->[com.google.firebase:firebase-abt:19.1.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c5dae224e46eaeaf49137f0ea91f7a1c\jetified-firebase-abt-19.1.0\AndroidManifest.xml:14:17-109
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-abt:19.1.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c5dae224e46eaeaf49137f0ea91f7a1c\jetified-firebase-abt-19.1.0\AndroidManifest.xml:15:17-82
+65        </service>
+66
+67        <receiver
+67-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+68            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+68-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+69            android:exported="true"
+69-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+70            android:permission="com.google.android.c2dm.permission.SEND" >
+70-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+71            <intent-filter>
+71-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+72                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+72-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+72-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\c727463f24e2f52c10283bd677e9b891\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+73            </intent-filter>
+74        </receiver>
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\ac0e6aa68b5f6f080f61bdd16397cea0\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\ac0e6aa68b5f6f080f61bdd16397cea0\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\ac0e6aa68b5f6f080f61bdd16397cea0\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\ac0e6aa68b5f6f080f61bdd16397cea0\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+80
+81        <provider
+81-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\8e9d7420722348251c52478b175a6fe0\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+82            android:name="com.google.firebase.provider.FirebaseInitProvider"
+82-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\8e9d7420722348251c52478b175a6fe0\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+83            android:authorities="com.example.languagetranslatorapp.firebaseinitprovider"
+83-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\8e9d7420722348251c52478b175a6fe0\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+84            android:exported="false"
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\8e9d7420722348251c52478b175a6fe0\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+85            android:initOrder="100" />
+85-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\8e9d7420722348251c52478b175a6fe0\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+86
+87        <receiver
+87-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:29:9-33:20
+88            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+88-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:30:13-85
+89            android:enabled="true"
+89-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:31:13-35
+90            android:exported="false" >
+90-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:32:13-37
+91        </receiver>
+92        <receiver
+92-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:34:9-42:20
+93            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+93-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:35:13-100
+94            android:enabled="true"
+94-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:36:13-35
+95            android:exported="true"
+95-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:37:13-36
+96            android:permission="android.permission.INSTALL_PACKAGES" >
+96-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:38:13-69
+97            <intent-filter>
+97-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:39:13-41:29
+98                <action android:name="com.android.vending.INSTALL_REFERRER" />
+98-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:40:17-79
+98-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:40:25-76
+99            </intent-filter>
+100        </receiver>
+101
+102        <service
+102-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:44:9-47:40
+103            android:name="com.google.android.gms.measurement.AppMeasurementService"
+103-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:45:13-84
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:46:13-35
+105            android:exported="false" />
+105-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:47:13-37
+106        <service
+106-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:48:9-52:72
+107            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+107-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:49:13-87
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:50:13-35
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:51:13-37
+110            android:permission="android.permission.BIND_JOB_SERVICE" />
+110-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\a910c9c03c1cca5ea5b0d9752b5509ca\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:52:13-69
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\4f63811291808a3d0f904358f89e1cc2\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\4f63811291808a3d0f904358f89e1cc2\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\4f63811291808a3d0f904358f89e1cc2\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+115
+116        <provider
+116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\242836d627f895e869f49d4bff168ff0\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+117            android:name="androidx.startup.InitializationProvider"
+117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\242836d627f895e869f49d4bff168ff0\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+118            android:authorities="com.example.languagetranslatorapp.androidx-startup"
+118-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\242836d627f895e869f49d4bff168ff0\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+119            android:exported="false" >
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\242836d627f895e869f49d4bff168ff0\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+120            <meta-data
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\242836d627f895e869f49d4bff168ff0\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\242836d627f895e869f49d4bff168ff0\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+122                android:value="androidx.startup" />
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\242836d627f895e869f49d4bff168ff0\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\ff141a36fe2f2f909f0518a187a76d1c\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\ff141a36fe2f2f909f0518a187a76d1c\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Vaishnavi\.gradle\caches\transforms-2\files-2.1\ff141a36fe2f2f909f0518a187a76d1c\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+126        </provider>
+127    </application>
+128
+129</manifest>
